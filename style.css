@@ -1,6 +1,13 @@
 body{
     background: lightblue;
+    color: rgb(54, 96, 130);
 }
 h1{
-    color: rgb(154, 68, 68);
+    color: rgb(54, 96, 130);
 }
+table {
+    border: 1px solid;
+    color: rgb(54, 96, 130);
+    background: linear-gradient(white, lightblue);
+}
+
