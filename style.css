@@ -10,4 +10,6 @@ table {
     color: rgb(54, 96, 130);
     background: linear-gradient(white, lightblue);
 }
-
+img{
+    width: 400px;
+}

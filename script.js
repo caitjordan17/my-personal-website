@@ -3,11 +3,8 @@ h2.textContent = "Welcome!";
 
 document.querySelector("body").appendChild(h2);
 
+document.addEventListener("click", myFunction);
 
-const input = document.getElementById('button');
-
-function clickAlert() {
-  alert('Caitlin has been informed!');
+function myFunction() {
+    document.getElementById("input").innerHTML = "Thanks for interacting!";
 }
-
-document.addEventListener('click', clickAlert);
